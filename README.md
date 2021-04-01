@@ -108,7 +108,7 @@ Exit with ctrl + x press y then enter
 add the firewall rules
 
 ```
-$ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+$ sudo iptables -t nat -A POSTROUTING -o wlan1 -j MASQUERADE
 ```
 
 save the firewall rules
